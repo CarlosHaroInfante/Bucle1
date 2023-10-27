@@ -14,20 +14,31 @@ namespace Bucle1.Servicios
             MenuInterfaz potaje = new MenuImplementacion();
             //int a = potaje.bucle();
             int a = valor;
-            int suma;
-            suma = (a);
-            for (a = a; a <= 10; ++a) 
-            {
-            Console.WriteLine(a);
+           
+            int i = a;
 
-                //Console.WriteLine(a);
-            }
-
-            for (a = suma; a<=10; ++suma)
+            
+            
+            for (i = a; valor <= 10; ++i) 
             {
+            int suma = i + i;
                 Console.WriteLine(suma);
+            int numero = suma + ++i;
+                Console.WriteLine(numero);
+
+                return numero;
+
+                ;
             }
-            return a;
+            
+            return i;
+                //Console.WriteLine(a);
+            
+
+            
+            
+
+           
             
         }
     }
